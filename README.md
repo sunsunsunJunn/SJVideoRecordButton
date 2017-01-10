@@ -1,0 +1,2 @@
+# SJVideoRecordButton
+模仿iPhone自带录视频按钮点击动画效果
