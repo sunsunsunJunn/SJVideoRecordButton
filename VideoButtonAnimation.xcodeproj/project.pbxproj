@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B614D7A1E248FAB00CF286C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B614D791E248FAB00CF286C /* main.m */; };
+		7B614D7D1E248FAB00CF286C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B614D7C1E248FAB00CF286C /* AppDelegate.m */; };
+		7B614D801E248FAB00CF286C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B614D7F1E248FAB00CF286C /* ViewController.m */; };
+		7B614D831E248FAB00CF286C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B614D811E248FAB00CF286C /* Main.storyboard */; };
+		7B614D851E248FAB00CF286C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B614D841E248FAB00CF286C /* Assets.xcassets */; };
+		7B614D881E248FAB00CF286C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B614D861E248FAB00CF286C /* LaunchScreen.storyboard */; };
+		7B614D931E248FAB00CF286C /* VideoButtonAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B614D921E248FAB00CF286C /* VideoButtonAnimationTests.m */; };
+		7B614D9E1E248FAB00CF286C /* VideoButtonAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B614D9D1E248FAB00CF286C /* VideoButtonAnimationUITests.m */; };
+		7B614DAE1E24901900CF286C /* SJVideoBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B614DAD1E24901900CF286C /* SJVideoBtn.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B614D8F1E248FAB00CF286C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B614D6D1E248FAB00CF286C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B614D741E248FAB00CF286C;
+			remoteInfo = VideoButtonAnimation;
+		};
+		7B614D9A1E248FAB00CF286C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B614D6D1E248FAB00CF286C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B614D741E248FAB00CF286C;
+			remoteInfo = VideoButtonAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B614D751E248FAB00CF286C /* VideoButtonAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoButtonAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B614D791E248FAB00CF286C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B614D7B1E248FAB00CF286C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7B614D7C1E248FAB00CF286C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7B614D7E1E248FAB00CF286C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7B614D7F1E248FAB00CF286C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7B614D821E248FAB00CF286C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B614D841E248FAB00CF286C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B614D871E248FAB00CF286C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B614D891E248FAB00CF286C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B614D8E1E248FAB00CF286C /* VideoButtonAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoButtonAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B614D921E248FAB00CF286C /* VideoButtonAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoButtonAnimationTests.m; sourceTree = "<group>"; };
+		7B614D941E248FAB00CF286C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B614D991E248FAB00CF286C /* VideoButtonAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoButtonAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B614D9D1E248FAB00CF286C /* VideoButtonAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoButtonAnimationUITests.m; sourceTree = "<group>"; };
+		7B614D9F1E248FAB00CF286C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B614DAC1E24901900CF286C /* SJVideoBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJVideoBtn.h; sourceTree = "<group>"; };
+		7B614DAD1E24901900CF286C /* SJVideoBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJVideoBtn.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B614D721E248FAB00CF286C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B614D8B1E248FAB00CF286C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B614D961E248FAB00CF286C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B614D6C1E248FAB00CF286C = {
+			isa = PBXGroup;
+			children = (
+				7B614D771E248FAB00CF286C /* VideoButtonAnimation */,
+				7B614D911E248FAB00CF286C /* VideoButtonAnimationTests */,
+				7B614D9C1E248FAB00CF286C /* VideoButtonAnimationUITests */,
+				7B614D761E248FAB00CF286C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B614D761E248FAB00CF286C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B614D751E248FAB00CF286C /* VideoButtonAnimation.app */,
+				7B614D8E1E248FAB00CF286C /* VideoButtonAnimationTests.xctest */,
+				7B614D991E248FAB00CF286C /* VideoButtonAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B614D771E248FAB00CF286C /* VideoButtonAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				7B614DAB1E248FEA00CF286C /* VideoBtn */,
+				7B614D7B1E248FAB00CF286C /* AppDelegate.h */,
+				7B614D7C1E248FAB00CF286C /* AppDelegate.m */,
+				7B614D7E1E248FAB00CF286C /* ViewController.h */,
+				7B614D7F1E248FAB00CF286C /* ViewController.m */,
+				7B614D811E248FAB00CF286C /* Main.storyboard */,
+				7B614D841E248FAB00CF286C /* Assets.xcassets */,
+				7B614D861E248FAB00CF286C /* LaunchScreen.storyboard */,
+				7B614D891E248FAB00CF286C /* Info.plist */,
+				7B614D781E248FAB00CF286C /* Supporting Files */,
+			);
+			path = VideoButtonAnimation;
+			sourceTree = "<group>";
+		};
+		7B614D781E248FAB00CF286C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B614D791E248FAB00CF286C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B614D911E248FAB00CF286C /* VideoButtonAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B614D921E248FAB00CF286C /* VideoButtonAnimationTests.m */,
+				7B614D941E248FAB00CF286C /* Info.plist */,
+			);
+			path = VideoButtonAnimationTests;
+			sourceTree = "<group>";
+		};
+		7B614D9C1E248FAB00CF286C /* VideoButtonAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B614D9D1E248FAB00CF286C /* VideoButtonAnimationUITests.m */,
+				7B614D9F1E248FAB00CF286C /* Info.plist */,
+			);
+			path = VideoButtonAnimationUITests;
+			sourceTree = "<group>";
+		};
+		7B614DAB1E248FEA00CF286C /* VideoBtn */ = {
+			isa = PBXGroup;
+			children = (
+				7B614DAC1E24901900CF286C /* SJVideoBtn.h */,
+				7B614DAD1E24901900CF286C /* SJVideoBtn.m */,
+			);
+			path = VideoBtn;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B614D741E248FAB00CF286C /* VideoButtonAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B614DA21E248FAB00CF286C /* Build configuration list for PBXNativeTarget "VideoButtonAnimation" */;
+			buildPhases = (
+				7B614D711E248FAB00CF286C /* Sources */,
+				7B614D721E248FAB00CF286C /* Frameworks */,
+				7B614D731E248FAB00CF286C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoButtonAnimation;
+			productName = VideoButtonAnimation;
+			productReference = 7B614D751E248FAB00CF286C /* VideoButtonAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B614D8D1E248FAB00CF286C /* VideoButtonAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B614DA51E248FAB00CF286C /* Build configuration list for PBXNativeTarget "VideoButtonAnimationTests" */;
+			buildPhases = (
+				7B614D8A1E248FAB00CF286C /* Sources */,
+				7B614D8B1E248FAB00CF286C /* Frameworks */,
+				7B614D8C1E248FAB00CF286C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B614D901E248FAB00CF286C /* PBXTargetDependency */,
+			);
+			name = VideoButtonAnimationTests;
+			productName = VideoButtonAnimationTests;
+			productReference = 7B614D8E1E248FAB00CF286C /* VideoButtonAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B614D981E248FAB00CF286C /* VideoButtonAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B614DA81E248FAB00CF286C /* Build configuration list for PBXNativeTarget "VideoButtonAnimationUITests" */;
+			buildPhases = (
+				7B614D951E248FAB00CF286C /* Sources */,
+				7B614D961E248FAB00CF286C /* Frameworks */,
+				7B614D971E248FAB00CF286C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B614D9B1E248FAB00CF286C /* PBXTargetDependency */,
+			);
+			name = VideoButtonAnimationUITests;
+			productName = VideoButtonAnimationUITests;
+			productReference = 7B614D991E248FAB00CF286C /* VideoButtonAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B614D6D1E248FAB00CF286C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jun Sun";
+				TargetAttributes = {
+					7B614D741E248FAB00CF286C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					7B614D8D1E248FAB00CF286C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7B614D741E248FAB00CF286C;
+					};
+					7B614D981E248FAB00CF286C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7B614D741E248FAB00CF286C;
+					};
+				};
+			};
+			buildConfigurationList = 7B614D701E248FAB00CF286C /* Build configuration list for PBXProject "VideoButtonAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B614D6C1E248FAB00CF286C;
+			productRefGroup = 7B614D761E248FAB00CF286C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B614D741E248FAB00CF286C /* VideoButtonAnimation */,
+				7B614D8D1E248FAB00CF286C /* VideoButtonAnimationTests */,
+				7B614D981E248FAB00CF286C /* VideoButtonAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B614D731E248FAB00CF286C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B614D881E248FAB00CF286C /* LaunchScreen.storyboard in Resources */,
+				7B614D851E248FAB00CF286C /* Assets.xcassets in Resources */,
+				7B614D831E248FAB00CF286C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B614D8C1E248FAB00CF286C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B614D971E248FAB00CF286C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B614D711E248FAB00CF286C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B614D801E248FAB00CF286C /* ViewController.m in Sources */,
+				7B614D7D1E248FAB00CF286C /* AppDelegate.m in Sources */,
+				7B614D7A1E248FAB00CF286C /* main.m in Sources */,
+				7B614DAE1E24901900CF286C /* SJVideoBtn.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B614D8A1E248FAB00CF286C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B614D931E248FAB00CF286C /* VideoButtonAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B614D951E248FAB00CF286C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B614D9E1E248FAB00CF286C /* VideoButtonAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B614D901E248FAB00CF286C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B614D741E248FAB00CF286C /* VideoButtonAnimation */;
+			targetProxy = 7B614D8F1E248FAB00CF286C /* PBXContainerItemProxy */;
+		};
+		7B614D9B1E248FAB00CF286C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B614D741E248FAB00CF286C /* VideoButtonAnimation */;
+			targetProxy = 7B614D9A1E248FAB00CF286C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B614D811E248FAB00CF286C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B614D821E248FAB00CF286C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B614D861E248FAB00CF286C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B614D871E248FAB00CF286C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B614DA01E248FAB00CF286C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7B614DA11E248FAB00CF286C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B614DA31E248FAB00CF286C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VideoButtonAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.honestRice.VideoButtonAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7B614DA41E248FAB00CF286C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VideoButtonAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.honestRice.VideoButtonAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7B614DA61E248FAB00CF286C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VideoButtonAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.honestRice.VideoButtonAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoButtonAnimation.app/VideoButtonAnimation";
+			};
+			name = Debug;
+		};
+		7B614DA71E248FAB00CF286C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VideoButtonAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.honestRice.VideoButtonAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoButtonAnimation.app/VideoButtonAnimation";
+			};
+			name = Release;
+		};
+		7B614DA91E248FAB00CF286C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VideoButtonAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.honestRice.VideoButtonAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VideoButtonAnimation;
+			};
+			name = Debug;
+		};
+		7B614DAA1E248FAB00CF286C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VideoButtonAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.honestRice.VideoButtonAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VideoButtonAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B614D701E248FAB00CF286C /* Build configuration list for PBXProject "VideoButtonAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B614DA01E248FAB00CF286C /* Debug */,
+				7B614DA11E248FAB00CF286C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B614DA21E248FAB00CF286C /* Build configuration list for PBXNativeTarget "VideoButtonAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B614DA31E248FAB00CF286C /* Debug */,
+				7B614DA41E248FAB00CF286C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7B614DA51E248FAB00CF286C /* Build configuration list for PBXNativeTarget "VideoButtonAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B614DA61E248FAB00CF286C /* Debug */,
+				7B614DA71E248FAB00CF286C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7B614DA81E248FAB00CF286C /* Build configuration list for PBXNativeTarget "VideoButtonAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B614DA91E248FAB00CF286C /* Debug */,
+				7B614DAA1E248FAB00CF286C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B614D6D1E248FAB00CF286C /* Project object */;
+}
